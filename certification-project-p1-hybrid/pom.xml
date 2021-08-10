@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.anusha</groupId>
-	<artifactId>data-driven-project</artifactId>
+	<artifactId>hybrid-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Data Driven Project</name>
-	<description>Automation framework practice - Data Drivem</description>
+	<name>Hybrid Project</name>
+	<description>Automation framework - Hybrid</description>
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>

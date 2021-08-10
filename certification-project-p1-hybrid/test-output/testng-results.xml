@@ -8,7 +8,7 @@
       <![CDATA[HOTEL NAME IS: Mountain Trails]]>
     </line>
     <line>
-      <![CDATA[HOTEL NAME IS: Mountain Trails]]>
+      <![CDATA[HOTEL NAME IS: Zostel Ooty]]>
     </line>
     <line>
       <![CDATA[<br><img src='/Users/anushaprashanth/eclipse-workspace/certification-project-p1-hybrid/test-output/roomImage.jpg' height ='400' width = '400'/><br>]]>
@@ -29,15 +29,15 @@
       <![CDATA[SUCCESS  - The Hotel Policies Section is displayed. Verified display of an element in the Hotel Policies section]]>
     </line>
     <line>
-      <![CDATA[HOTEL NAME IS: The Red House]]>
+      <![CDATA[HOTEL NAME IS: Mountain Trails]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-07-28T21:36:14 EDT" name="ScenariosSuite" finished-at="2021-07-28T21:38:03 EDT" duration-ms="109084">
+  <suite started-at="2021-08-09T22:11:42 EDT" name="ScenariosSuite" finished-at="2021-08-09T22:13:13 EDT" duration-ms="90918">
     <groups>
     </groups>
-    <test started-at="2021-07-28T21:36:14 EDT" name="ScenariosTests" finished-at="2021-07-28T21:38:03 EDT" duration-ms="109084">
+    <test started-at="2021-08-09T22:11:42 EDT" name="ScenariosTests" finished-at="2021-08-09T22:13:13 EDT" duration-ms="90918">
       <class name="test.Scenario4">
-        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:40 EDT" name="beforeClass" finished-at="2021-07-28T21:37:46 EDT" duration-ms="6405" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario4@1e730495]" started-at="2021-08-09T22:12:54 EDT" name="beforeClass" finished-at="2021-08-09T22:12:58 EDT" duration-ms="3848" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,11 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:46 EDT" name="beforeClass" finished-at="2021-07-28T21:37:46 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Scenario4@1e730495]" started-at="2021-08-09T22:12:58 EDT" name="beforeClass" finished-at="2021-08-09T22:12:58 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="s4(java.lang.String,java.lang.String)[pri:1, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:46 EDT" name="s4" finished-at="2021-07-28T21:37:56 EDT" duration-ms="9643" status="PASS">
+        <test-method signature="s4(java.lang.String,java.lang.String)[pri:1, instance:test.Scenario4@1e730495]" started-at="2021-08-09T22:12:58 EDT" name="s4" finished-at="2021-08-09T22:13:06 EDT" duration-ms="7947" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,33 +72,33 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[HOTEL NAME IS: The Red House]]>
+              <![CDATA[HOTEL NAME IS: Mountain Trails]]>
             </line>
           </reporter-output>
         </test-method> <!-- s4 -->
-        <test-method signature="filterByPayAtHotel()[pri:2, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:56 EDT" name="filterByPayAtHotel" finished-at="2021-07-28T21:37:56 EDT" duration-ms="327" status="PASS">
+        <test-method signature="filterByPayAtHotel()[pri:2, instance:test.Scenario4@1e730495]" started-at="2021-08-09T22:13:06 EDT" name="filterByPayAtHotel" finished-at="2021-08-09T22:13:06 EDT" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByPayAtHotel -->
-        <test-method signature="filterByPrice()[pri:3, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:56 EDT" name="filterByPrice" finished-at="2021-07-28T21:37:57 EDT" duration-ms="546" status="PASS">
+        <test-method signature="filterByPrice()[pri:3, instance:test.Scenario4@1e730495]" started-at="2021-08-09T22:13:06 EDT" name="filterByPrice" finished-at="2021-08-09T22:13:07 EDT" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByPrice -->
-        <test-method signature="filterByCustomerRating()[pri:4, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:57 EDT" name="filterByCustomerRating" finished-at="2021-07-28T21:37:57 EDT" duration-ms="511" status="PASS">
+        <test-method signature="filterByCustomerRating()[pri:4, instance:test.Scenario4@1e730495]" started-at="2021-08-09T22:13:07 EDT" name="filterByCustomerRating" finished-at="2021-08-09T22:13:07 EDT" duration-ms="396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByCustomerRating -->
-        <test-method signature="filterByStars()[pri:5, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:57 EDT" name="filterByStars" finished-at="2021-07-28T21:37:58 EDT" duration-ms="448" status="PASS">
+        <test-method signature="filterByStars()[pri:5, instance:test.Scenario4@1e730495]" started-at="2021-08-09T22:13:07 EDT" name="filterByStars" finished-at="2021-08-09T22:13:07 EDT" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByStars -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:58 EDT" name="afterClass" finished-at="2021-07-28T21:38:03 EDT" duration-ms="5226" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Scenario4@1e730495]" started-at="2021-08-09T22:13:07 EDT" name="afterClass" finished-at="2021-08-09T22:13:13 EDT" duration-ms="5181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- test.Scenario4 -->
       <class name="test.Scenario1">
-        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario1@402e37bc]" started-at="2021-07-28T21:36:14 EDT" name="beforeClass" finished-at="2021-07-28T21:36:21 EDT" duration-ms="7158" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario1@79ad8b2f]" started-at="2021-08-09T22:11:42 EDT" name="beforeClass" finished-at="2021-08-09T22:11:50 EDT" duration-ms="8254" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,11 +114,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Scenario1@402e37bc]" started-at="2021-07-28T21:36:21 EDT" name="beforeClass" finished-at="2021-07-28T21:36:21 EDT" duration-ms="39" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Scenario1@79ad8b2f]" started-at="2021-08-09T22:11:50 EDT" name="beforeClass" finished-at="2021-08-09T22:11:50 EDT" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="s1(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario1@402e37bc]" started-at="2021-07-28T21:36:21 EDT" name="s1" finished-at="2021-07-28T21:36:31 EDT" duration-ms="9420" status="PASS">
+        <test-method signature="s1(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario1@79ad8b2f]" started-at="2021-08-09T22:11:50 EDT" name="s1" finished-at="2021-08-09T22:11:59 EDT" duration-ms="9453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,13 +137,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- s1 -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Scenario1@402e37bc]" started-at="2021-07-28T21:36:31 EDT" name="afterClass" finished-at="2021-07-28T21:36:36 EDT" duration-ms="5251" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Scenario1@79ad8b2f]" started-at="2021-08-09T22:11:59 EDT" name="afterClass" finished-at="2021-08-09T22:12:05 EDT" duration-ms="5238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- test.Scenario1 -->
       <class name="test.Scenario2">
-        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:36 EDT" name="beforeClass" finished-at="2021-07-28T21:36:43 EDT" duration-ms="6651" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario2@70be0a2b]" started-at="2021-08-09T22:12:05 EDT" name="beforeClass" finished-at="2021-08-09T22:12:08 EDT" duration-ms="3660" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,11 +159,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:43 EDT" name="beforeClass" finished-at="2021-07-28T21:36:43 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Scenario2@70be0a2b]" started-at="2021-08-09T22:12:08 EDT" name="beforeClass" finished-at="2021-08-09T22:12:08 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="s2(java.lang.String,java.lang.String)[pri:1, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:43 EDT" name="s2" finished-at="2021-07-28T21:36:57 EDT" duration-ms="14323" status="PASS">
+        <test-method signature="s2(java.lang.String,java.lang.String)[pri:1, instance:test.Scenario2@70be0a2b]" started-at="2021-08-09T22:12:08 EDT" name="s2" finished-at="2021-08-09T22:12:20 EDT" duration-ms="11348" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -182,7 +182,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- s2 -->
-        <test-method signature="verifySelectedCheckInDate()[pri:2, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:57 EDT" name="verifySelectedCheckInDate" finished-at="2021-07-28T21:36:58 EDT" duration-ms="1353" status="FAIL">
+        <test-method signature="verifySelectedCheckInDate()[pri:2, instance:test.Scenario2@70be0a2b]" started-at="2021-08-09T22:12:20 EDT" name="verifySelectedCheckInDate" finished-at="2021-08-09T22:12:21 EDT" duration-ms="1483" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The selected and the displayed check in dates do not match expected [true] but found [false]]]>
@@ -229,7 +229,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySelectedCheckInDate -->
-        <test-method signature="verifySelectedCheckOutDate()[pri:3, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:58 EDT" name="verifySelectedCheckOutDate" finished-at="2021-07-28T21:36:58 EDT" duration-ms="167" status="FAIL">
+        <test-method signature="verifySelectedCheckOutDate()[pri:3, instance:test.Scenario2@70be0a2b]" started-at="2021-08-09T22:12:21 EDT" name="verifySelectedCheckOutDate" finished-at="2021-08-09T22:12:21 EDT" duration-ms="31" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The selected and the displayed check out dates do not match expected [true] but found [false]]]>
@@ -276,11 +276,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySelectedCheckOutDate -->
-        <test-method signature="verifySelectedGuestsNumber()[pri:4, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:58 EDT" name="verifySelectedGuestsNumber" finished-at="2021-07-28T21:36:58 EDT" duration-ms="50" status="PASS">
+        <test-method signature="verifySelectedGuestsNumber()[pri:4, instance:test.Scenario2@70be0a2b]" started-at="2021-08-09T22:12:21 EDT" name="verifySelectedGuestsNumber" finished-at="2021-08-09T22:12:21 EDT" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySelectedGuestsNumber -->
-        <test-method signature="enterGuestDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:58 EDT" name="enterGuestDetails" finished-at="2021-07-28T21:37:00 EDT" duration-ms="1523" status="PASS">
+        <test-method signature="enterGuestDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:test.Scenario2@70be0a2b]" started-at="2021-08-09T22:12:21 EDT" name="enterGuestDetails" finished-at="2021-08-09T22:12:22 EDT" duration-ms="982" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -306,7 +306,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterGuestDetails -->
-        <test-method signature="enterCardDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:37:00 EDT" name="enterCardDetails" finished-at="2021-07-28T21:37:04 EDT" duration-ms="4206" status="PASS">
+        <test-method signature="enterCardDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:test.Scenario2@70be0a2b]" started-at="2021-08-09T22:12:22 EDT" name="enterCardDetails" finished-at="2021-08-09T22:12:26 EDT" duration-ms="3418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -332,13 +332,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterCardDetails -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:37:04 EDT" name="afterClass" finished-at="2021-07-28T21:37:09 EDT" duration-ms="5272" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Scenario2@70be0a2b]" started-at="2021-08-09T22:12:26 EDT" name="afterClass" finished-at="2021-08-09T22:12:31 EDT" duration-ms="5193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- test.Scenario2 -->
       <class name="test.Scenario3">
-        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:09 EDT" name="beforeClass" finished-at="2021-07-28T21:37:16 EDT" duration-ms="6181" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario3@23f7d05d]" started-at="2021-08-09T22:12:31 EDT" name="beforeClass" finished-at="2021-08-09T22:12:35 EDT" duration-ms="4654" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -354,11 +354,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:16 EDT" name="beforeClass" finished-at="2021-07-28T21:37:16 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Scenario3@23f7d05d]" started-at="2021-08-09T22:12:35 EDT" name="beforeClass" finished-at="2021-08-09T22:12:35 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="s3(java.lang.String,java.lang.String)[pri:1, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:16 EDT" name="s3" finished-at="2021-07-28T21:37:29 EDT" duration-ms="13222" status="PASS">
+        <test-method signature="s3(java.lang.String,java.lang.String)[pri:1, instance:test.Scenario3@23f7d05d]" started-at="2021-08-09T22:12:35 EDT" name="s3" finished-at="2021-08-09T22:12:45 EDT" duration-ms="9662" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -373,11 +373,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <reporter-output>
             <line>
-              <![CDATA[HOTEL NAME IS: Mountain Trails]]>
+              <![CDATA[HOTEL NAME IS: Zostel Ooty]]>
             </line>
           </reporter-output>
         </test-method> <!-- s3 -->
-        <test-method signature="verifyRoomOptions()[pri:2, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:29 EDT" name="verifyRoomOptions" finished-at="2021-07-28T21:37:30 EDT" duration-ms="858" status="PASS">
+        <test-method signature="verifyRoomOptions()[pri:2, instance:test.Scenario3@23f7d05d]" started-at="2021-08-09T22:12:45 EDT" name="verifyRoomOptions" finished-at="2021-08-09T22:12:46 EDT" duration-ms="910" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<br><img src='/Users/anushaprashanth/eclipse-workspace/certification-project-p1-hybrid/test-output/roomImage.jpg' height ='400' width = '400'/><br>]]>
@@ -387,35 +387,35 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- verifyRoomOptions -->
-        <test-method signature="verifyLocationDetails()[pri:3, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:30 EDT" name="verifyLocationDetails" finished-at="2021-07-28T21:37:30 EDT" duration-ms="540" status="PASS">
+        <test-method signature="verifyLocationDetails()[pri:3, instance:test.Scenario3@23f7d05d]" started-at="2021-08-09T22:12:46 EDT" name="verifyLocationDetails" finished-at="2021-08-09T22:12:46 EDT" duration-ms="383" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[SUCCESS  - The Location section is displayed. Verified display of an element in the Location section]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyLocationDetails -->
-        <test-method signature="verifyGuestReviews()[pri:4, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:30 EDT" name="verifyGuestReviews" finished-at="2021-07-28T21:37:31 EDT" duration-ms="626" status="PASS">
+        <test-method signature="verifyGuestReviews()[pri:4, instance:test.Scenario3@23f7d05d]" started-at="2021-08-09T22:12:46 EDT" name="verifyGuestReviews" finished-at="2021-08-09T22:12:47 EDT" duration-ms="373" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[SUCCESS  - The Guest Review Section is displayed. Verified display of an element in the Guest Reviews section]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyGuestReviews -->
-        <test-method signature="verifyQASection()[pri:5, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:31 EDT" name="verifyQASection" finished-at="2021-07-28T21:37:34 EDT" duration-ms="3268" status="PASS">
+        <test-method signature="verifyQASection()[pri:5, instance:test.Scenario3@23f7d05d]" started-at="2021-08-09T22:12:47 EDT" name="verifyQASection" finished-at="2021-08-09T22:12:49 EDT" duration-ms="1688" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[SUCCESS  - The Q&A Section is displayed. Verified display of an element in the Q&A section]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyQASection -->
-        <test-method signature="verifyhotelPolicies()[pri:6, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:34 EDT" name="verifyhotelPolicies" finished-at="2021-07-28T21:37:35 EDT" duration-ms="441" status="PASS">
+        <test-method signature="verifyhotelPolicies()[pri:6, instance:test.Scenario3@23f7d05d]" started-at="2021-08-09T22:12:49 EDT" name="verifyhotelPolicies" finished-at="2021-08-09T22:12:49 EDT" duration-ms="446" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[SUCCESS  - The Hotel Policies Section is displayed. Verified display of an element in the Hotel Policies section]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyhotelPolicies -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:35 EDT" name="afterClass" finished-at="2021-07-28T21:37:40 EDT" duration-ms="5301" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Scenario3@23f7d05d]" started-at="2021-08-09T22:12:49 EDT" name="afterClass" finished-at="2021-08-09T22:12:54 EDT" duration-ms="5208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
