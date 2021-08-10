@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="16" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[HOTEL NAME IS: Mountain Trails]]>
+    </line>
+    <line>
+      <![CDATA[HOTEL NAME IS: Mountain Trails]]>
+    </line>
+    <line>
+      <![CDATA[HOTEL NAME IS: Mountain Trails]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='/Users/anushaprashanth/eclipse-workspace/certification-project-p1-hybrid/test-output/roomImage.jpg' height ='400' width = '400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESS  - The Room Options section is displayed.Verified display of an element in the Room options section]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESS  - The Location section is displayed. Verified display of an element in the Location section]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESS  - The Guest Review Section is displayed. Verified display of an element in the Guest Reviews section]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESS  - The Q&A Section is displayed. Verified display of an element in the Q&A section]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESS  - The Hotel Policies Section is displayed. Verified display of an element in the Hotel Policies section]]>
+    </line>
+    <line>
+      <![CDATA[HOTEL NAME IS: The Red House]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-07-28T21:36:14 EDT" name="ScenariosSuite" finished-at="2021-07-28T21:38:03 EDT" duration-ms="109084">
+    <groups>
+    </groups>
+    <test started-at="2021-07-28T21:36:14 EDT" name="ScenariosTests" finished-at="2021-07-28T21:38:03 EDT" duration-ms="109084">
+      <class name="test.Scenario4">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:40 EDT" name="beforeClass" finished-at="2021-07-28T21:37:46 EDT" duration-ms="6405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.goibibo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:46 EDT" name="beforeClass" finished-at="2021-07-28T21:37:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="s4(java.lang.String,java.lang.String)[pri:1, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:46 EDT" name="s4" finished-at="2021-07-28T21:37:56 EDT" duration-ms="9643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ooty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.goibibo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[HOTEL NAME IS: The Red House]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- s4 -->
+        <test-method signature="filterByPayAtHotel()[pri:2, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:56 EDT" name="filterByPayAtHotel" finished-at="2021-07-28T21:37:56 EDT" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByPayAtHotel -->
+        <test-method signature="filterByPrice()[pri:3, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:56 EDT" name="filterByPrice" finished-at="2021-07-28T21:37:57 EDT" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByPrice -->
+        <test-method signature="filterByCustomerRating()[pri:4, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:57 EDT" name="filterByCustomerRating" finished-at="2021-07-28T21:37:57 EDT" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByCustomerRating -->
+        <test-method signature="filterByStars()[pri:5, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:57 EDT" name="filterByStars" finished-at="2021-07-28T21:37:58 EDT" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByStars -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Scenario4@23f7d05d]" started-at="2021-07-28T21:37:58 EDT" name="afterClass" finished-at="2021-07-28T21:38:03 EDT" duration-ms="5226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.Scenario4 -->
+      <class name="test.Scenario1">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario1@402e37bc]" started-at="2021-07-28T21:36:14 EDT" name="beforeClass" finished-at="2021-07-28T21:36:21 EDT" duration-ms="7158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.goibibo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Scenario1@402e37bc]" started-at="2021-07-28T21:36:21 EDT" name="beforeClass" finished-at="2021-07-28T21:36:21 EDT" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="s1(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario1@402e37bc]" started-at="2021-07-28T21:36:21 EDT" name="s1" finished-at="2021-07-28T21:36:31 EDT" duration-ms="9420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ooty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.goibibo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[HOTEL NAME IS: Mountain Trails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- s1 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Scenario1@402e37bc]" started-at="2021-07-28T21:36:31 EDT" name="afterClass" finished-at="2021-07-28T21:36:36 EDT" duration-ms="5251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.Scenario1 -->
+      <class name="test.Scenario2">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:36 EDT" name="beforeClass" finished-at="2021-07-28T21:36:43 EDT" duration-ms="6651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.goibibo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:43 EDT" name="beforeClass" finished-at="2021-07-28T21:36:43 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="s2(java.lang.String,java.lang.String)[pri:1, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:43 EDT" name="s2" finished-at="2021-07-28T21:36:57 EDT" duration-ms="14323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ooty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.goibibo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[HOTEL NAME IS: Mountain Trails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- s2 -->
+        <test-method signature="verifySelectedCheckInDate()[pri:2, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:57 EDT" name="verifySelectedCheckInDate" finished-at="2021-07-28T21:36:58 EDT" duration-ms="1353" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The selected and the displayed check in dates do not match expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The selected and the displayed check in dates do not match expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at utils.Keywords.compareStrings(Keywords.java:45)
+at utils.Keywords.verifySelectedCheckIn(Keywords.java:103)
+at test.Scenario2.verifySelectedCheckInDate(Scenario2.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectedCheckInDate -->
+        <test-method signature="verifySelectedCheckOutDate()[pri:3, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:58 EDT" name="verifySelectedCheckOutDate" finished-at="2021-07-28T21:36:58 EDT" duration-ms="167" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The selected and the displayed check out dates do not match expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The selected and the displayed check out dates do not match expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at utils.Keywords.compareStrings(Keywords.java:45)
+at utils.Keywords.verifySelectedCheckOut(Keywords.java:115)
+at test.Scenario2.verifySelectedCheckOutDate(Scenario2.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectedCheckOutDate -->
+        <test-method signature="verifySelectedGuestsNumber()[pri:4, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:58 EDT" name="verifySelectedGuestsNumber" finished-at="2021-07-28T21:36:58 EDT" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectedGuestsNumber -->
+        <test-method signature="enterGuestDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:36:58 EDT" name="enterGuestDetails" finished-at="2021-07-28T21:37:00 EDT" duration-ms="1523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anusha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prakash]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@123.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterGuestDetails -->
+        <test-method signature="enterCardDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:37:00 EDT" name="enterCardDetails" finished-at="2021-07-28T21:37:04 EDT" duration-ms="4206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jane Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[06/26]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCardDetails -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Scenario2@f8c1ddd]" started-at="2021-07-28T21:37:04 EDT" name="afterClass" finished-at="2021-07-28T21:37:09 EDT" duration-ms="5272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.Scenario2 -->
+      <class name="test.Scenario3">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:09 EDT" name="beforeClass" finished-at="2021-07-28T21:37:16 EDT" duration-ms="6181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.goibibo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:16 EDT" name="beforeClass" finished-at="2021-07-28T21:37:16 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="s3(java.lang.String,java.lang.String)[pri:1, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:16 EDT" name="s3" finished-at="2021-07-28T21:37:29 EDT" duration-ms="13222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ooty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.goibibo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[HOTEL NAME IS: Mountain Trails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- s3 -->
+        <test-method signature="verifyRoomOptions()[pri:2, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:29 EDT" name="verifyRoomOptions" finished-at="2021-07-28T21:37:30 EDT" duration-ms="858" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='/Users/anushaprashanth/eclipse-workspace/certification-project-p1-hybrid/test-output/roomImage.jpg' height ='400' width = '400'/><br>]]>
+            </line>
+            <line>
+              <![CDATA[SUCCESS  - The Room Options section is displayed.Verified display of an element in the Room options section]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRoomOptions -->
+        <test-method signature="verifyLocationDetails()[pri:3, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:30 EDT" name="verifyLocationDetails" finished-at="2021-07-28T21:37:30 EDT" duration-ms="540" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SUCCESS  - The Location section is displayed. Verified display of an element in the Location section]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLocationDetails -->
+        <test-method signature="verifyGuestReviews()[pri:4, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:30 EDT" name="verifyGuestReviews" finished-at="2021-07-28T21:37:31 EDT" duration-ms="626" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SUCCESS  - The Guest Review Section is displayed. Verified display of an element in the Guest Reviews section]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGuestReviews -->
+        <test-method signature="verifyQASection()[pri:5, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:31 EDT" name="verifyQASection" finished-at="2021-07-28T21:37:34 EDT" duration-ms="3268" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SUCCESS  - The Q&A Section is displayed. Verified display of an element in the Q&A section]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyQASection -->
+        <test-method signature="verifyhotelPolicies()[pri:6, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:34 EDT" name="verifyhotelPolicies" finished-at="2021-07-28T21:37:35 EDT" duration-ms="441" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SUCCESS  - The Hotel Policies Section is displayed. Verified display of an element in the Hotel Policies section]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyhotelPolicies -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Scenario3@23986957]" started-at="2021-07-28T21:37:35 EDT" name="afterClass" finished-at="2021-07-28T21:37:40 EDT" duration-ms="5301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.Scenario3 -->
+    </test> <!-- ScenariosTests -->
+  </suite> <!-- ScenariosSuite -->
+</testng-results>
