@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ScenariosSuite">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url" value="https://www.goibibo.com/"></parameter>
+	<parameter name="location" value="ooty"></parameter>
+	<parameter name="firstName" value="Anusha"></parameter>
+	<parameter name="lastName" value="Prakash"></parameter>
+	<parameter name="email" value="abc@123.com"></parameter>
+	<parameter name="phone" value="1234567890"></parameter>
+	<parameter name="cardNumber" value="1234567890"></parameter>
+	<parameter name="nameOnCard" value="Jane Doe"></parameter>
+	<parameter name="expiryDate" value="06/26"></parameter>
+	<parameter name="cvv" value="000"></parameter>
+	<test thread-count="5" name="ScenariosTests">
+		<classes>
+			<class name="test.Scenario1"></class>
+			<class name="test.Scenario2"></class>
+			<class name="test.Scenario3"></class>
+			<class name="test.Scenario4"></class>
+		</classes>
+	</test> <!-- ScenariosTests -->
+</suite> <!-- ScenariosSuite -->

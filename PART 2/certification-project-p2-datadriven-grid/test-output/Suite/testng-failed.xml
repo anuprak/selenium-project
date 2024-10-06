@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="10" parallel="tests" name="Test2(failed)">
+    <parameter name="searchTermApple" value="Apple Phone"/>
+    <parameter name="grid" value="true"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="searchTermNike" value="Nike"/>
+    <parameter name="searchTermHeadphone" value="headphone"/>
+    <parameter name="huburl" value="http://10.0.0.229:4444/wd/hub"/>
+    <parameter name="url" value="https://www.shopclues.com/"/>
+    <parameter name="searchTermSamsung" value="Samsung Mobile"/>
+    <groups>
+      <run>
+        <include name="Grid"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.certProjPart22">
+        <methods>
+          <include name="searchApplePhone" invocation-numbers="0"/>
+          <include name="searchFastrack" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- test.certProjPart22 -->
+      <class name="test.certProjPart21">
+        <methods>
+          <include name="loginCombinations"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- test.certProjPart21 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="10" parallel="tests" name="Test1(failed)">
+    <parameter name="searchTermApple" value="Apple Phone"/>
+    <parameter name="grid" value="true"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="searchTermNike" value="Nike"/>
+    <parameter name="searchTermHeadphone" value="headphone"/>
+    <parameter name="huburl" value="http://10.0.0.229:4444/wd/hub"/>
+    <parameter name="url" value="https://www.shopclues.com/"/>
+    <parameter name="searchTermSamsung" value="Samsung Mobile"/>
+    <groups>
+      <run>
+        <include name="Grid"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.certProjPart23">
+        <methods>
+          <include name="searchAndCountHeadphone" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- test.certProjPart23 -->
+      <class name="test.certProjPart22">
+        <methods>
+          <include name="searchFastrack" invocation-numbers="0"/>
+          <include name="searchNike" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- test.certProjPart22 -->
+      <class name="test.certProjPart21">
+        <methods>
+          <include name="loginCombinations"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- test.certProjPart21 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

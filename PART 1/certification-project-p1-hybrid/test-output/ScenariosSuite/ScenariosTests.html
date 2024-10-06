@@ -1,0 +1,323 @@
+<html>
+<head>
+<title>TestNG:  ScenariosTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ScenariosTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 28 21:36:14 EDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>109 seconds (109084 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.Scenario2.verifySelectedCheckInDate()'><b>verifySelectedCheckInDate</b><br>Test class: test.Scenario2</td>
+<td><div><pre>java.lang.AssertionError: The selected and the displayed check in dates do not match expected [true] but found [false]
+	at utils.Keywords.compareStrings(Keywords.java:45)
+	at utils.Keywords.verifySelectedCheckIn(Keywords.java:103)
+	at test.Scenario2.verifySelectedCheckInDate(Scenario2.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace225553858", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace225553858'><pre>java.lang.AssertionError: The selected and the displayed check in dates do not match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at utils.Keywords.compareStrings(Keywords.java:45)
+	at utils.Keywords.verifySelectedCheckIn(Keywords.java:103)
+	at test.Scenario2.verifySelectedCheckInDate(Scenario2.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>test.Scenario2@f8c1ddd</td></tr>
+<tr>
+<td title='test.Scenario2.verifySelectedCheckOutDate()'><b>verifySelectedCheckOutDate</b><br>Test class: test.Scenario2</td>
+<td><div><pre>java.lang.AssertionError: The selected and the displayed check out dates do not match expected [true] but found [false]
+	at utils.Keywords.compareStrings(Keywords.java:45)
+	at utils.Keywords.verifySelectedCheckOut(Keywords.java:115)
+	at test.Scenario2.verifySelectedCheckOutDate(Scenario2.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace22668134", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace22668134'><pre>java.lang.AssertionError: The selected and the displayed check out dates do not match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at utils.Keywords.compareStrings(Keywords.java:45)
+	at utils.Keywords.verifySelectedCheckOut(Keywords.java:115)
+	at test.Scenario2.verifySelectedCheckOutDate(Scenario2.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test.Scenario2@f8c1ddd</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.Scenario3.verifyGuestReviews()'><b>verifyGuestReviews</b><br>Test class: test.Scenario3<br/>
+<a href="#Output-2086945474" onClick='toggleBox("Output-2086945474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2086945474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2086945474">
+SUCCESS  - The Guest Review Section is displayed. Verified display of an element in the Guest Reviews section<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.Scenario3@23986957</td></tr>
+<tr>
+<td title='test.Scenario3.verifyQASection()'><b>verifyQASection</b><br>Test class: test.Scenario3<br/>
+<a href="#Output-1901663135" onClick='toggleBox("Output-1901663135", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1901663135" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1901663135">
+SUCCESS  - The Q&A Section is displayed. Verified display of an element in the Q&A section<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.Scenario3@23986957</td></tr>
+<tr>
+<td title='test.Scenario4.filterByPrice()'><b>filterByPrice</b><br>Test class: test.Scenario4</td>
+<td></td>
+<td>0</td>
+<td>test.Scenario4@23f7d05d</td></tr>
+<tr>
+<td title='test.Scenario4.filterByCustomerRating()'><b>filterByCustomerRating</b><br>Test class: test.Scenario4</td>
+<td></td>
+<td>0</td>
+<td>test.Scenario4@23f7d05d</td></tr>
+<tr>
+<td title='test.Scenario3.verifyLocationDetails()'><b>verifyLocationDetails</b><br>Test class: test.Scenario3<br/>
+<a href="#Output-62915435" onClick='toggleBox("Output-62915435", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-62915435" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-62915435">
+SUCCESS  - The Location section is displayed. Verified display of an element in the Location section<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.Scenario3@23986957</td></tr>
+<tr>
+<td title='test.Scenario2.enterCardDetails()'><b>enterCardDetails</b><br>Test class: test.Scenario2<br>Parameters: 1234567890, Jane Doe, 06/26, 000</td>
+<td></td>
+<td>4</td>
+<td>test.Scenario2@f8c1ddd</td></tr>
+<tr>
+<td title='test.Scenario1.s1()'><b>s1</b><br>Test class: test.Scenario1<br>Parameters: ooty, https://www.goibibo.com/<br/>
+<a href="#Output-1267042315" onClick='toggleBox("Output-1267042315", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1267042315" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1267042315">
+HOTEL NAME IS: Mountain Trails<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>test.Scenario1@402e37bc</td></tr>
+<tr>
+<td title='test.Scenario4.filterByPayAtHotel()'><b>filterByPayAtHotel</b><br>Test class: test.Scenario4</td>
+<td></td>
+<td>0</td>
+<td>test.Scenario4@23f7d05d</td></tr>
+<tr>
+<td title='test.Scenario3.verifyRoomOptions()'><b>verifyRoomOptions</b><br>Test class: test.Scenario3<br/>
+<a href="#Output-174383157" onClick='toggleBox("Output-174383157", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-174383157" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-174383157">
+<br><img src='/Users/anushaprashanth/eclipse-workspace/certification-project-p1-hybrid/test-output/roomImage.jpg' height ='400' width = '400'/><br><br/>
+SUCCESS  - The Room Options section is displayed.Verified display of an element in the Room options section<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.Scenario3@23986957</td></tr>
+<tr>
+<td title='test.Scenario4.s4()'><b>s4</b><br>Test class: test.Scenario4<br>Parameters: ooty, https://www.goibibo.com/<br/>
+<a href="#Output-239648666" onClick='toggleBox("Output-239648666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-239648666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-239648666">
+HOTEL NAME IS: The Red House<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>test.Scenario4@23f7d05d</td></tr>
+<tr>
+<td title='test.Scenario4.filterByStars()'><b>filterByStars</b><br>Test class: test.Scenario4</td>
+<td></td>
+<td>0</td>
+<td>test.Scenario4@23f7d05d</td></tr>
+<tr>
+<td title='test.Scenario3.verifyhotelPolicies()'><b>verifyhotelPolicies</b><br>Test class: test.Scenario3<br/>
+<a href="#Output-1605190078" onClick='toggleBox("Output-1605190078", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1605190078" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1605190078">
+SUCCESS  - The Hotel Policies Section is displayed. Verified display of an element in the Hotel Policies section<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.Scenario3@23986957</td></tr>
+<tr>
+<td title='test.Scenario2.verifySelectedGuestsNumber()'><b>verifySelectedGuestsNumber</b><br>Test class: test.Scenario2</td>
+<td></td>
+<td>0</td>
+<td>test.Scenario2@f8c1ddd</td></tr>
+<tr>
+<td title='test.Scenario2.s2()'><b>s2</b><br>Test class: test.Scenario2<br>Parameters: ooty, https://www.goibibo.com/<br/>
+<a href="#Output-764358458" onClick='toggleBox("Output-764358458", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-764358458" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-764358458">
+HOTEL NAME IS: Mountain Trails<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>test.Scenario2@f8c1ddd</td></tr>
+<tr>
+<td title='test.Scenario3.s3()'><b>s3</b><br>Test class: test.Scenario3<br>Parameters: ooty, https://www.goibibo.com/<br/>
+<a href="#Output-2110785285" onClick='toggleBox("Output-2110785285", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2110785285" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2110785285">
+HOTEL NAME IS: Mountain Trails<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>test.Scenario3@23986957</td></tr>
+<tr>
+<td title='test.Scenario2.enterGuestDetails()'><b>enterGuestDetails</b><br>Test class: test.Scenario2<br>Parameters: Anusha, Prakash, abc@123.com, 1234567890</td>
+<td></td>
+<td>1</td>
+<td>test.Scenario2@f8c1ddd</td></tr>
+</table><p>
+</body>
+</html>

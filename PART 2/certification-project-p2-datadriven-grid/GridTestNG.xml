@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+	<groups>
+		<run>
+			<include name="Grid"></include>
+		</run>
+	</groups>
+	<test thread-count="5" name="Test1">
+		<parameter name="grid" value="true"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="huburl" value="http://10.0.0.229:4444/wd/hub"></parameter>
+		<parameter name="url" value="https://www.shopclues.com/"></parameter>
+		<parameter name="searchTermNike" value="Nike"></parameter>
+		<parameter name="searchTermSamsung" value="Samsung Mobile"></parameter>
+		<parameter name="searchTermApple" value="Apple Phone"></parameter>
+		<parameter name="searchTermHeadphone" value="headphone"></parameter>
+		<classes>
+			<class name="test.certProjPart21" />
+			<class name="test.certProjPart22" />
+			<class name="test.certProjPart23" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Test2">
+		<parameter name="grid" value="true"></parameter>
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="huburl" value="http://10.0.0.229:4444/wd/hub"></parameter>
+		<parameter name="url" value="https://www.shopclues.com/"></parameter>
+		<parameter name="searchTermNike" value="Nike"></parameter>
+		<parameter name="searchTermSamsung" value="Samsung Mobile"></parameter>
+		<parameter name="searchTermApple" value="Apple Phone"></parameter>
+		<parameter name="searchTermHeadphone" value="headphone"></parameter>
+		<classes>
+			<class name="test.certProjPart21" />
+			<class name="test.certProjPart22" />
+			<class name="test.certProjPart23" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

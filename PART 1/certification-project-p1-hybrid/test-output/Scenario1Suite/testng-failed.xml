@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Scenario1Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="checkOutDate" value="30"/>
+  <parameter name="monthYear" value="October 2021"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="location" value="ooty"/>
+  <parameter name="checkInDate" value="26"/>
+  <parameter name="url" value="https://www.goibibo.com/"/>
+  <test thread-count="5" name="Scenario1Tests(failed)">
+    <classes>
+      <class name="test.Scenario2">
+        <methods>
+          <include name="s2" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.Scenario2 -->
+    </classes>
+  </test> <!-- Scenario1Tests(failed) -->
+</suite> <!-- Failed suite [Scenario1Suite] -->
